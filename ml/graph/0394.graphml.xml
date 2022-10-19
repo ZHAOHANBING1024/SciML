@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="edgetype" attr.type="string" />
+  <key id="d5" for="node" attr.name="area" attr.type="double" />
+  <key id="d4" for="node" attr.name="labelDE" attr.type="string" />
+  <key id="d3" for="node" attr.name="floor" attr.type="long" />
+  <key id="d2" for="node" attr.name="area" attr.type="long" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="graph" attr.name="BGF" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="-1">
+      <data key="d1">OUTSIDE</data>
+      <data key="d2">1</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="5">
+      <data key="d1">STAIRS</data>
+      <data key="d4">TREPPEN</data>
+      <data key="d5">5.149945525153538</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="6">
+      <data key="d1">CORRIDOR</data>
+      <data key="d4">FLUR</data>
+      <data key="d5">3.8537896017718065</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="7">
+      <data key="d1">BASEMENT</data>
+      <data key="d4">KELLER</data>
+      <data key="d5">35.01071869060419</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="8">
+      <data key="d1">BASEMENT</data>
+      <data key="d4">KELLER</data>
+      <data key="d5">33.90902159838956</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="9">
+      <data key="d1">TECHNICAL ROOM</data>
+      <data key="d4">HAUSTECHNIK</data>
+      <data key="d5">17.75481008519427</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="277">
+      <data key="d1">WC</data>
+      <data key="d4">WC</data>
+      <data key="d5">3.196291565790227</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="278">
+      <data key="d1">COAT RACK</data>
+      <data key="d4">GARDEROBE</data>
+      <data key="d5">6.369421598495173</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="279">
+      <data key="d1">STAIRS</data>
+      <data key="d4">TREPPEN</data>
+      <data key="d5">5.404540299588079</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="280">
+      <data key="d1">BEDROOM</data>
+      <data key="d4">SCHLAFEN</data>
+      <data key="d5">18.52022789975198</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="281">
+      <data key="d1">HALL</data>
+      <data key="d4">DIELE</data>
+      <data key="d5">11.159224548423198</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="364">
+      <data key="d1">DINING/LIVING ROOM</data>
+      <data key="d4">ESSEN/WOHNEN</data>
+      <data key="d5">34.62956637704671</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="367">
+      <data key="d1">KITCHEN</data>
+      <data key="d4">KÜCHE</data>
+      <data key="d5">19.3205981693669</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="425">
+      <data key="d1">BEDROOM</data>
+      <data key="d4">SCHLAFEN</data>
+      <data key="d5">13.661548596123879</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="426">
+      <data key="d1">SHOWER/WC</data>
+      <data key="d4">DU/WC</data>
+      <data key="d5">6.443366357838973</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="427">
+      <data key="d1">BEDROOM</data>
+      <data key="d4">SCHLAFEN</data>
+      <data key="d5">16.873646343276604</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="428">
+      <data key="d1">STUDY</data>
+      <data key="d4">BÜRO</data>
+      <data key="d5">8.400359406713276</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="429">
+      <data key="d1">BEDROOM</data>
+      <data key="d4">SCHLAFEN</data>
+      <data key="d5">15.437787788824645</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="430">
+      <data key="d1">BATHROOM</data>
+      <data key="d4">BAD</data>
+      <data key="d5">12.154327480273544</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="431">
+      <data key="d1">STAIRS</data>
+      <data key="d4">TREPPEN</data>
+      <data key="d5">5.008525032880667</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="432">
+      <data key="d1">WALK-IN CLOSET</data>
+      <data key="d4">ANKLEIDE</data>
+      <data key="d5">9.778548873719345</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="433">
+      <data key="d1">GALLERY</data>
+      <data key="d4">EMPORE</data>
+      <data key="d5">8.45685476782031</data>
+      <data key="d3">2</data>
+    </node>
+    <edge source="-1" target="281">
+      <data key="d6">ENTRANCE</data>
+    </edge>
+    <edge source="5" target="6">
+      <data key="d6">OPEN</data>
+    </edge>
+    <edge source="5" target="279">
+      <data key="d6">VERTICAL</data>
+    </edge>
+    <edge source="6" target="8">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="6" target="9">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="277" target="281">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="278" target="281">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="279" target="281">
+      <data key="d6">OPEN</data>
+    </edge>
+    <edge source="279" target="431">
+      <data key="d6">VERTICAL</data>
+    </edge>
+    <edge source="280" target="281">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="281" target="364">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="364" target="367">
+      <data key="d6">OPEN</data>
+    </edge>
+    <edge source="425" target="433">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="426" target="433">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="427" target="433">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="428" target="433">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="429" target="432">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="430" target="432">
+      <data key="d6">DOOR</data>
+    </edge>
+    <edge source="431" target="433">
+      <data key="d6">OPEN</data>
+    </edge>
+    <edge source="432" target="433">
+      <data key="d6">DOOR</data>
+    </edge>
+    <data key="d0">352.12547543844937</data>
+  </graph>
+</graphml>
