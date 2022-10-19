@@ -50,18 +50,21 @@ class Autoencoder(nn.Module):
 
 def train(model, error, optimizer, n_epochs, x):
     model.train()
+    losses = []
     for epoch in range(1, n_epochs + 1):
         optimizer.zero_grad()
         output = model(x)
         loss = error(output, x)
         loss.backward()
         optimizer.step()
+        losses.append(loss.detach().numpy())
         
         if epoch % int(0.1*n_epochs) == 0:
             print(f'epoch {epoch} \t Loss: {loss.item():.4g}')
+    
+    
 
 n_samples = 1500
-noise = 0.05
 X, colors = make_swiss_roll(n_samples)
 X = MinMaxScaler().fit_transform(X)
 x = torch.from_numpy(X).to(device)
@@ -73,6 +76,11 @@ error = nn.MSELoss()
 optimizer = optim.Adam(model.parameters())
 
 train(model, error, optimizer, 5000, x)
+torch.save(model.encode, "encoder.pt")
+torch.save(model.decode, "decoder.pt")
+encoder = torch.load("encoder.pt")
+decoder = torch.load("decoder.pt")
+
 
 with torch.no_grad():
     encoded = model.encode(x)
