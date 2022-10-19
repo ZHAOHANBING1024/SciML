@@ -304,7 +304,7 @@ for filename in all_files:
     Task = pd.read_csv('Task.csv')
 
     #Bom = Bom.sort_values(by=['storey'])
-    Bom['type'] = pd.Categorical(Bom['type'], ["Start","F","IW","EW","S","R","Finish"])
+    Bom['type'] = pd.Categorical(Bom['type'], ["Start","F","IWB","IW","EW","S","R","Finish"])
     Bom = Bom.sort_values(by=['storey','type'])
     Bom = Bom.reset_index(drop=True)
     Bom['id']=[i for i in range(0,Bom.shape[0])]
@@ -335,7 +335,7 @@ for filename in all_files:
 
     # predefined precedence constriants
 
-    constraints_1 = [['F','IW'],['IW','EW'],['EW','S'],['Start','F'],['R','Finish']] # for elements on the same floor
+    constraints_1 = [['F','IWB'],['IWB','IW'],['IW','EW'],['EW','S'],['Start','F'],['R','Finish']] # for elements on the same floor
     constraints_2 = [['S','R'],['EW','F'],['EW','R']] # for elements on the different floor
 
     # task list
