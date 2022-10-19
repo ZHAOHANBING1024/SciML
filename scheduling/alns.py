@@ -335,7 +335,7 @@ for filename in all_files:
 
     # predefined precedence constriants
 
-    constraints_1 = [['F','IWB'],['IWB','IW'],['IW','EW'],['EW','S'],['Start','F'],['R','Finish']] # for elements on the same floor
+    constraints_1 = [['F','IW'],['IW','EW'],['EW','S'],['Start','F'],['R','Finish']] # for elements on the same floor
     constraints_2 = [['S','R'],['EW','F'],['EW','R']] # for elements on the different floor
 
     # task list
