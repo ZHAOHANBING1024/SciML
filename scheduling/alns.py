@@ -304,7 +304,7 @@ for filename in all_files:
     Task = pd.read_csv('Task.csv')
 
     #Bom = Bom.sort_values(by=['storey'])
-    Bom['type'] = pd.Categorical(Bom['type'], ["Start","F","IWB","IW","EW","S","R","Finish"])
+    Bom['type'] = pd.Categorical(Bom['type'], ["Start","F","IW","EW","S","R","Finish"])
     Bom = Bom.sort_values(by=['storey','type'])
     Bom = Bom.reset_index(drop=True)
     Bom['id']=[i for i in range(0,Bom.shape[0])]
