@@ -313,12 +313,12 @@ for filename in all_files:
     recipe = {}
     for re in Recipe.iterrows():
         recipe[re[1][0]]=re[1][1].split(",")
-    print(recipe)
+    #print(recipe)
 
     resource = {}
     for re in Resouce.iterrows():
         resource[re[1][0]]=[re[1][1],re[1][2],re[1][3],re[1][4]]
-    print(resource)
+    #print(resource)
 
     duration = {}
     for re in Task.iterrows():
@@ -499,16 +499,16 @@ for filename in all_files:
 
     ## check input
 
-    print("number of jobs:", instance.num_jobs)
-    print("______________________")
-    print("instance duration:", instance.duration)
-    print("______________________")
-    print("instance resource:", instance.resources)
-    print("______________________")
-    print("instance resource needs:", instance.needs)
-    print("______________________")
-    print("instance successor:", instance.successors)
-    print("______________________")
+    # print("number of jobs:", instance.num_jobs)
+    # print("______________________")
+    # print("instance duration:", instance.duration)
+    # print("______________________")
+    # print("instance resource:", instance.resources)
+    # print("______________________")
+    # print("instance resource needs:", instance.needs)
+    # print("______________________")
+    # print("instance successor:", instance.successors)
+    # print("______________________")
 
 
     ## model parameters

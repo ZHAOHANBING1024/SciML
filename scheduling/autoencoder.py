@@ -81,10 +81,9 @@ torch.save(model.decode, "decoder.pt")
 encoder = torch.load("encoder.pt")
 decoder = torch.load("decoder.pt")
 
-
 with torch.no_grad():
-    encoded = model.encode(x)
-    decoded = model.decode(encoded)
+    encoded = encoder(x)
+    decoded = decoder(encoded)
     mse = error(decoded, x).item()
     enc = encoded.cpu().detach().numpy()
     dec = decoded.cpu().detach().numpy()
