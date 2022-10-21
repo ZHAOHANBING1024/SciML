@@ -1,0 +1,5 @@
+type,ids,length,balcony,canopy,seat,openings
+EW,0,9400.0,0,0,0,3
+EW,1,9400.0,0,0,0,5
+EW,2,18000.0,0,0,0,7
+EW,3,18000.0,4,2,4,10
